@@ -24,7 +24,7 @@ jobs:
           5
           0
           0
-        expected-output: The amount is ¤1.25
+        expected-output: The amount is $1.25
         comparison-method: contains
         timeout: 10
         max-score: 2
@@ -39,7 +39,7 @@ jobs:
           0
           15
           0
-        expected-output: The amount is ¤1.50
+        expected-output: The amount is $1.50
         comparison-method: contains
         timeout: 10
         max-score: 2
@@ -54,7 +54,7 @@ jobs:
           0
           0
           40
-        expected-output: The amount is ¤2.00
+        expected-output: The amount is $2.00
         comparison-method: contains
         timeout: 10
         max-score: 2
@@ -69,7 +69,7 @@ jobs:
           10
           25
           10
-        expected-output: The amount is ¤5.50
+        expected-output: The amount is $5.50
         comparison-method: contains
         timeout: 10
         max-score: 2
@@ -84,11 +84,11 @@ jobs:
           500
           0
         expected-output: |-
-          With an investment of ¤500.00
+          With an investment of $500.00
           at an interest rate of 0.00% compounded annually:
-          the future value in 5 years is ¤500.00
-          the future value in 10 years is ¤500.00
-          the future value in 20 years is ¤500.00
+          the future value in 5 years is $500.00
+          the future value in 10 years is $500.00
+          the future value in 20 years is $500.00
         comparison-method: contains
         timeout: 10
         max-score: 2
@@ -103,11 +103,11 @@ jobs:
           500
           .045
         expected-output: |-
-          With an investment of ¤500.00
+          With an investment of $500.00
           at an interest rate of 4.50% compounded annually:
-          the future value in 5 years is ¤623.09
-          the future value in 10 years is ¤776.48
-          the future value in 20 years is ¤1,205.86a
+          the future value in 5 years is $623.09
+          the future value in 10 years is $776.48
+          the future value in 20 years is $1,205.86
         comparison-method: contains
         timeout: 10
         max-score: 2
